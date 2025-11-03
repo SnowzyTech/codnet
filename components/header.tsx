@@ -85,7 +85,7 @@ export function Header() {
             onClick={toggleMenu}
             className="md:hidden flex items-center justify-center w-10 h-10 rounded-lg hover:bg-slate-800 transition-colors"
           >
-            {isOpen ? <X className="w-6 h-6 text-white" /> : <Menu className="w-6 h-6 text-white" />}
+            {isOpen ? <X className="w-6 h-6 text-white cursor-pointer" /> : <Menu className="w-6 h-6 text-white cursor-pointer" />}
           </button>
         </nav>
 
@@ -94,7 +94,7 @@ export function Header() {
           initial="hidden"
           animate={isOpen ? "visible" : "hidden"}
           exit="exit"
-          className="md:hidden fixed top-16 right-0 bottom-0 w-1/2 bg-gradient-to-b from-slate-800 to-slate-900 border-l border-slate-700 h-[calc(100vh-64px)] z-50 pointer-events-auto"
+          className="md:hidden fixed top-16 right-0 bottom-0 w-2/3 bg-gradient-to-b from-slate-800 to-slate-900 border-l border-slate-700 h-[calc(100vh-64px)] z-50 pointer-events-auto"
         >
           <div className="px-4 py-6 space-y-2 overflow-y-auto">
             {navLinks.map((link) => {

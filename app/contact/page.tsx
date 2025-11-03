@@ -56,8 +56,9 @@ export default function Contact() {
   }
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "hello@codnet.com", href: "mailto:hello@codnet.com" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
+    { icon: Mail, label: "Email", value: "snowzytech@gmail.com", href: "mailto:snowzytech@gmail.com" },
+    { icon: Phone, label: "Phone", value: "07034912012", href: "tel:+2347034912012" },
+    { icon: Phone, label: "Phone", value: "07065444706", href: "tel:+2347065444706" },
   ]
 
   const socialLinks = [
@@ -89,7 +90,7 @@ export default function Contact() {
               className="lg:col-span-1 space-y-8"
             >
               <div>
-                <h3 className="text-2xl font-bold text-white mb-6">Contact Info</h3>
+                <h3 className="text-2xl font-bold text-white mb-6 md:px-1 px-5">Contact Info</h3>
                 <div className="space-y-6">
                   {contactInfo.map((info, index) => {
                     const Icon = info.icon
@@ -98,7 +99,7 @@ export default function Contact() {
                         key={index}
                         href={info.href}
                         whileHover={{ x: 5 }}
-                        className="flex items-start gap-4 group"
+                        className="flex items-start gap-4 group md:px-1 px-5"
                       >
                         <Icon className="text-blue-400 flex-shrink-0 mt-1" size={24} />
                         <div>
@@ -114,8 +115,8 @@ export default function Contact() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-4">Follow Us</h3>
-                <div className="flex gap-4">
+                <h3 className="text-2xl font-bold text-white mb-4 px-5 ">Follow Us</h3>
+                <div className="flex gap-4 px-5 md:px-1">
                   {socialLinks.map((social) => {
                     const Icon = social.icon
                     return (
