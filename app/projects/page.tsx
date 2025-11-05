@@ -86,20 +86,45 @@ const allProjects = [
     link: "https://brain-w.vercel.app/",
   },
 
-  {
-    id: 11,
-    title: "Sales Funnel Redesign",
+  { 
+    id: 12, 
+    title: "Smart-watch Sales Funnel Design", 
+    category: "Sales Funnels", 
+    image: "/smartwatch.jpg" ,
+    link: "https://kindiestore.com.ng/s/q-smartwatch/",
+    
+  },
+ 
+  
+  { 
+    id: 13, 
+    title: "Sales Funnel Design", 
+    category: "Sales Funnels", 
+    image: "/timeless.jpg",
+    link: "https://kindiestore.com.ng/s/ww/",
+  },
+  { 
+    id: 14, 
+    title: "Sales Funnel Design", 
+    category: "Sales Funnels", 
+    image: "/prosxact.jpg",
+    link: "https://kindiestore.com.ng/s/prosxact/", 
+  },
+  { 
+    id: 15, 
+    title: "Juice-Extractor Sales Funnel Design", 
+    category: "Sales Funnels", 
+    image: "/juice.jpg",
+    link: "https://kindiestore.com.ng/s/juicee/", 
+  },
+   {
+    id: 16,
+    title: "Landing Page Design",
     category: "Sales Funnels",
     image: "/gpt.png",
-    link: "https://brain-w.vercel.app/",
+    link: "https://gptui.netlify.app/",
   },
-  {
-    id: 12,
-    title: "Sales Funnel Redesign",
-    category: "Sales Funnels",
-    image: "/brand-design.jpg",
-  },
-  { id: 13, title: "Conversion Optimization", category: "Sales Funnels", image: "/conversion-optimization.jpg" },
+  
 ]
 
 const categories = ["All Projects", "Web Development", "Sales Funnels"]

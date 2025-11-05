@@ -94,7 +94,7 @@ export function Header() {
           initial="hidden"
           animate={isOpen ? "visible" : "hidden"}
           exit="exit"
-          className="md:hidden fixed top-16 right-0 bottom-0 w-2/3 bg-gradient-to-b from-slate-800 to-slate-900 border-l border-slate-700 h-[calc(100vh-64px)] z-50 pointer-events-auto"
+          className="md:hidden fixed top-16 right-0 bottom-0 w-[52%] bg-slate-900 border-b  border-slate-700 h-[calc(100vh-64px)] z-50 pointer-events-auto"
         >
           <div className="px-4 py-6 space-y-2 overflow-y-auto">
             {navLinks.map((link) => {
