@@ -9,7 +9,7 @@ const testimonials = [
     id: 1,
     name: "Linda Chikaodi",
     role: "CEO, Nutrihealth Consult.",
-    image: "/myskinaeshetics.jpg",
+    image: "\myskinaeshetics.jpg",
     content:
       "Codnet transformed our online presence completely. Our conversion rates increased by 150% within the first month of launching our new website.",
   },
@@ -17,7 +17,7 @@ const testimonials = [
     id: 2,
     name: "Chisom Geraldine",
     role: "CEO MyskinAeshtetics clinic",
-    image: "/asian-businessman-headshot.png",
+    image: "\chisom.jpg",
     content:
       "The sales funnel they built for us was a game-changer. We've seen a 3x increase in qualified leads since implementation.",
   },
