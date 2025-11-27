@@ -31,9 +31,15 @@ export function ProjectCard({ title, category, image, link }: ProjectCardProps) 
           </div>
           <div className="p-6">
             <h3 className="text-lg font-bold text-white mb-2">{title}</h3>
-            <span className="inline-block bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-3 py-1 rounded text-sm font-medium">
-              {category}
-            </span>
+            <div className="flex items-center justify-between">
+              <span className="inline-block bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-3 py-1 rounded text-sm font-medium">
+                {category}
+              </span>
+              <span className="inline-flex items-center gap-1.5 text-blue-400 text-sm font-medium group-hover:text-cyan-400 transition-colors">
+                View Project
+                <ExternalLink className="w-4 h-4" />
+              </span>
+            </div>
           </div>
         </Link>
       ) : (
