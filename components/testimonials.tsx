@@ -96,6 +96,7 @@ export function Testimonials() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
+          transition={{ duration: 0.9, ease: "easeOut" }}
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">What Our Clients Say</h2>
@@ -112,7 +113,7 @@ export function Testimonials() {
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -50 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.9, ease: "easeOut" }}
               className="bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700 rounded-2xl p-8 md:p-10"
             >
               <div className="flex flex-col md:flex-row gap-6 items-start md:items-center">

@@ -63,7 +63,7 @@ export function Hero3D() {
   return (
     <section
       ref={containerRef}
-      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 relative overflow-hidden"
+      className="lg:min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 relative overflow-x-hidden"
     >
       {/* Background gradient accents */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-blue-500/10 to-cyan-500/5 rounded-full blur-3xl" />
@@ -74,7 +74,7 @@ export function Hero3D() {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="lg:hidden text-center max-w-4xl mx-auto px-4 py-20"
+        className="lg:hidden text-center max-w-4xl mx-auto px-4 pt-6 sm:pt-12 md:pt-16 pb-6"
       >
         <motion.div variants={itemVariants} className="flex justify-center items-center gap-2 mb-8">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-500" />
@@ -137,7 +137,7 @@ export function Hero3D() {
         >
           {/* Central Content */}
           <div
-            className="text-center z-10 px-4"
+            className="text-center z-10 px-4 max-w-4xl"
             style={{
               transformStyle: "preserve-3d",
               transform: "translateZ(50px)",
@@ -147,7 +147,7 @@ export function Hero3D() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
-              className="text-6xl xl:text-7xl font-black mb-4"
+              className="text-6xl xl:text-8xl font-black mb-4"
               style={{ transformStyle: "preserve-3d" }}
             >
               <span
@@ -166,7 +166,7 @@ export function Hero3D() {
                 className="block text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-violet-600"
                 style={{ transform: "translateZ(40px)" }}
               >
-                GROW
+                and GROW
               </span>
             </motion.h1>
 

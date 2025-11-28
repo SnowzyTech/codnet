@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Codnet - Build, Launch, and Grow your Online Presence",
-  description: "We create high-performance websites and strategic sales funnels that convert visitors into loyal customers. Let's build your digital success story together.",
+  description:
+    "We create high-performance websites and strategic sales funnels that convert visitors into loyal customers. Let's build your digital success story together.",
 }
 
 export default function RootLayout({
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-slate-900">
-      <body className={`${inter.className} font-sans antialiased`}>
+      <body className={`${inter.className} font-sans antialiased overflow-x-hidden`}>
         {children}
         <Analytics />
       </body>

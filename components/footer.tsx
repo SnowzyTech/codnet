@@ -14,7 +14,7 @@ export function Footer() {
   ]
 
   const socialLinks = [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/codnet-ng/", label: "LinkedIn" },
     { icon: Github, href: "#", label: "GitHub" },
     { icon: MessageCircle, href: "#", label: "Dribbble" },
   ]
