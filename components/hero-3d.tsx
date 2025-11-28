@@ -63,7 +63,7 @@ export function Hero3D() {
   return (
     <section
       ref={containerRef}
-      className="lg:min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 relative overflow-x-hidden"
+      className="lg:min-h-screen pt-10 pb-15 flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 relative overflow-x-hidden"
     >
       {/* Background gradient accents */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-blue-500/10 to-cyan-500/5 rounded-full blur-3xl" />
