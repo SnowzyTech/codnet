@@ -36,7 +36,7 @@ export function ProjectCard({ title, category, image, link }: ProjectCardProps) 
                 {category}
               </span>
               <span className="inline-flex items-center gap-1.5 text-blue-400 text-sm font-medium group-hover:text-cyan-400 transition-colors">
-                View Project
+                View
                 <ExternalLink className="w-4 h-4" />
               </span>
             </div>

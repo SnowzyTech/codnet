@@ -9,9 +9,9 @@ const testimonials = [
     id: 1,
     name: "Linda Chikaodi",
     role: "CEO, Nutrihealth Consult.",
-    image: "\myskinaeshetics.jpg",
+    image: "\linda.jpg",
     content:
-      "Codnet transformed our online presence completely. Our conversion rates increased by 150% within the first month of launching our new website.",
+      "Working with Codnet was a turning point for our online business. We needed a custom e-commerce solution that could handle our specific inventory needs while keeping the customer journey smooth. Codnet delivered a site that is not only fast and secure but has also directly contributed to a 40% increase in our online sales since launch. They built a platform that scales with us.",
   },
   {
     id: 2,
@@ -19,61 +19,61 @@ const testimonials = [
     role: "CEO MyskinAeshtetics clinic",
     image: "\chisom.jpg",
     content:
-      "The sales funnel they built for us was a game-changer. We've seen a 3x increase in qualified leads since implementation.",
+      "In the skincare industry, visual trust is everything. Codnet understood exactly how to translate our brand's aesthetic into a digital store. The website they built is elegant, minimalist, and beautifully showcases our products. It’s not just a shop; it’s an experience that makes our customers feel confident in buying from us",
   },
   {
     id: 3,
     name: "Chidera Emmanuella",
     role: "Marketing Director, Bloom Beauty",
-    image: "/latina-professional-headshot.png",
+    image: "/ella.jpg",
     content:
       "Working with Codnet was seamless. They understood our brand vision and delivered a website that perfectly represents who we are.",
   },
   {
     id: 4,
-    name: "David Thompson",
-    role: "Owner, Elite Fitness",
-    image: "/fit-man-professional-headshot.jpg",
+    name: "Samuel Segun",
+    role: "Owner, Consultant Marketing",
+    image: "/segun.jpg",
     content:
       "Our membership sign-ups doubled after launching the new website. The team's attention to detail is unmatched.",
   },
   {
     id: 5,
-    name: "Jessica Williams",
-    role: "COO, HealthFirst Clinic",
-    image: "/african-american-woman-doctor-headshot.jpg",
+    name: "Architect Chimeka",
+    role: "CEO, Emeka Designs",
+    image: "/emeka.jpg",
     content:
-      "The booking system integration was flawless. Our patients love the new experience and our admin work has decreased significantly.",
+      "Codnet delivered a masterfully crafted website that perfectly reflects the precision and creativity of my architectural work. Highly professional and a pleasure to work with.",
   },
   {
     id: 6,
-    name: "Robert Martinez",
+    name: "Austin Chuks",
     role: "Director, Urban Realty",
-    image: "/hispanic-businessman-headshot.jpg",
+    image: "/austin.jpg",
     content:
       "Codnet delivered beyond our expectations. The property showcase features they built helped us close deals faster than ever.",
   },
   {
     id: 7,
-    name: "Amanda Foster",
+    name: "Okoye Chi",
     role: "Founder, Artisan Bakery",
-    image: "/blonde-woman-chef-headshot.jpg",
+    image: "/administrator.jpg",
     content:
       "Our online orders went from 10% to 60% of total sales. The e-commerce solution they built is exactly what we needed.",
   },
+  // {
+  //   id: 8,
+  //   name: "James Wilson",
+  //   role: "CEO, CloudSync Solutions",
+  //   image: "/tech-ceo-man-headshot.jpg",
+  //   content:
+  //     "Professional, responsive, and incredibly talented. They turned our complex requirements into a beautiful, functional platform.",
+  // },
   {
     id: 8,
-    name: "James Wilson",
-    role: "CEO, CloudSync Solutions",
-    image: "/tech-ceo-man-headshot.jpg",
-    content:
-      "Professional, responsive, and incredibly talented. They turned our complex requirements into a beautiful, functional platform.",
-  },
-  {
-    id: 9,
-    name: "Lisa Anderson",
+    name: "Mary Ogochukwu",
     role: "Owner, Luxe Interior Design",
-    image: "/elegant-woman-designer-headshot.jpg",
+    image: "/mary.jpg",
     content:
       "The portfolio website they created for us has attracted high-end clients we never reached before. Worth every penny.",
   },
@@ -85,7 +85,7 @@ export function Testimonials() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % testimonials.length)
-    }, 5000)
+    }, 7000)
     return () => clearInterval(interval)
   }, [])
 
