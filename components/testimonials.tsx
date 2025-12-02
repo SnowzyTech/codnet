@@ -90,7 +90,7 @@ export function Testimonials() {
   }, [])
 
   return (
-    <section className="bg-gradient-to-b from-slate-900 via-slate-950 to-slate-900 py-20 px-4">
+    <section className="bg-gradient-to-b from-slate-900 via-slate-950 to-slate-900 py-2 px-4">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -99,8 +99,8 @@ export function Testimonials() {
           transition={{ duration: 0.9, ease: "easeOut" }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">What Our Clients Say</h2>
-          <p className="text-slate-400 text-lg max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-white pt-10 mb-4">What Our Clients Say</h2>
+          <p className="text-slate-400 pt-3 text-lg max-w-2xl mx-auto">
             Don't just take our word for it. Here's what our satisfied clients have to say about working with us.
           </p>
         </motion.div>
