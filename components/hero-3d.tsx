@@ -223,14 +223,14 @@ export function Hero3D() {
         </motion.div>
 
         {/* Instruction text */}
-        <motion.p
+        {/* <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2 }}
           className="absolute bottom-8 text-slate-500 text-sm"
         >
           Move your cursor to explore the 3D space
-        </motion.p>
+        </motion.p> */}
       </div>
     </section>
   )
