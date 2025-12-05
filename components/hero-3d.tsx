@@ -23,7 +23,7 @@ export function Hero3D() {
   return (
     <section
       ref={containerRef}
-      className="min-h-screen pt-7 pb-6 flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 relative overflow-x-hidden"
+      className="min-h-[82vh] pt-7 pb-6 flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 relative overflow-x-hidden"
     >
       {/* Background gradient accents */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-blue-500/10 to-cyan-500/5 rounded-full blur-3xl" />
@@ -61,7 +61,7 @@ export function Hero3D() {
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold text-base hover:shadow-lg hover:shadow-blue-500/50 transition-all w-full sm:w-auto"
+              className="bg-gradient-to-r cursor-pointer from-blue-500 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold text-base hover:shadow-lg hover:shadow-blue-500/50 transition-all w-full sm:w-auto"
             >
               View Our Work
             </motion.button>
