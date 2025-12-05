@@ -58,7 +58,7 @@ export default function About() {
             <h2 className="text-3xl font-bold text-white mb-8">Our Mission</h2>
             <div className="space-y-6 text-slate-300 leading-relaxed">
               <p>
-                At Codnet, our mission is to empower businesses with high-performance websites and strategic sales
+                At <strong className="text-white font-bold uppercase">Coddnet</strong>, our mission is to empower businesses with high-performance websites and strategic sales
                 funnels that convert visitors into loyal customers. We believe that a strong online presence is the
                 cornerstone of modern success. Our team is dedicated to crafting bespoke digital solutions that not only
                 look stunning but also deliver tangible results, driving growth and maximizing return on investment for
@@ -80,7 +80,7 @@ export default function About() {
             className="mb-20"
           >
             <h2 className="text-3xl font-bold text-white mb-12">Our Expertise</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {/* Web Development */}
               <motion.div
                 variants={itemVariants}
@@ -88,21 +88,49 @@ export default function About() {
               >
                 <h3 className="text-xl font-bold text-white mb-6">Web Development</h3>
                 <ul className="space-y-3">
-                  {["Custom Websites", "E-commerce Solutions", "CMS Development", "Responsive Design"].map(
-                    (item, i) => (
-                      <motion.li
-                        key={i}
-                        initial={{ opacity: 0, x: -10 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: i * 0.1 }}
-                        className="flex items-center gap-3 text-slate-300"
-                      >
-                        <span className="w-2 h-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
-                        {item}
-                      </motion.li>
-                    ),
-                  )}
+                  {["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"].map((item, i) => (
+                    <motion.li
+                      key={i}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: i * 0.1 }}
+                      className="flex items-center gap-3 text-slate-300"
+                    >
+                      <span className="w-2 h-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
+                      {item}
+                    </motion.li>
+                  ))}
+                </ul>
+              </motion.div>
+
+              {/* Mobile Development */}
+              <motion.div
+                variants={itemVariants}
+                className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-8 border border-slate-700 hover:border-blue-500 transition-colors"
+              >
+                <h3 className="text-xl font-bold text-white mb-6">Mobile Development</h3>
+                <ul className="space-y-3">
+                  {[
+                    "React Native",
+                    "Expo",
+                    "iOS Development",
+                    "Android Development",
+                    "Push Notifications",
+                    "App Store Deployment",
+                  ].map((item, i) => (
+                    <motion.li
+                      key={i}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: i * 0.1 }}
+                      className="flex items-center gap-3 text-slate-300"
+                    >
+                      <span className="w-2 h-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
+                      {item}
+                    </motion.li>
+                  ))}
                 </ul>
               </motion.div>
 
@@ -113,21 +141,26 @@ export default function About() {
               >
                 <h3 className="text-xl font-bold text-white mb-6">Sales Funnels</h3>
                 <ul className="space-y-3">
-                  {["Funnel Strategy", "Landing Page Design", "Conversion Optimization", "A/B Testing"].map(
-                    (item, i) => (
-                      <motion.li
-                        key={i}
-                        initial={{ opacity: 0, x: -10 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: i * 0.1 }}
-                        className="flex items-center gap-3 text-slate-300"
-                      >
-                        <span className="w-2 h-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
-                        {item}
-                      </motion.li>
-                    ),
-                  )}
+                  {[
+                    "Funnel Strategy",
+                    "Landing Page Design",
+                    "Conversion Optimization",
+                    "A/B Testing",
+                    "Email Automation",
+                    "Lead Generation",
+                  ].map((item, i) => (
+                    <motion.li
+                      key={i}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: i * 0.1 }}
+                      className="flex items-center gap-3 text-slate-300"
+                    >
+                      <span className="w-2 h-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
+                      {item}
+                    </motion.li>
+                  ))}
                 </ul>
               </motion.div>
 
@@ -138,21 +171,26 @@ export default function About() {
               >
                 <h3 className="text-xl font-bold text-white mb-6">Core Technologies</h3>
                 <ul className="space-y-3">
-                  {["JavaScript Frameworks", "Headless CMS", "Marketing Automation"].map(
-                    (item, i) => (
-                      <motion.li
-                        key={i}
-                        initial={{ opacity: 0, x: -10 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: i * 0.1 }}
-                        className="flex items-center gap-3 text-slate-300"
-                      >
-                        <span className="w-2 h-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
-                        {item}
-                      </motion.li>
-                    ),
-                  )}
+                  {[
+                    "Next.js & React",
+                    "TypeScript",
+                    "React Native",
+                    "Supabase",
+                    "Prisma ORM",
+                    "REST & GraphQL APIs",
+                  ].map((item, i) => (
+                    <motion.li
+                      key={i}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: i * 0.1 }}
+                      className="flex items-center gap-3 text-slate-300"
+                    >
+                      <span className="w-2 h-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
+                      {item}
+                    </motion.li>
+                  ))}
                 </ul>
               </motion.div>
             </div>

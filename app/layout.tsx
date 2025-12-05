@@ -7,7 +7,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Codnet - Build, Launch, and Grow your Online Presence",
+  title: "Coddnet - Build, Launch, and Grow your Online Presence",
   description:
     "We create high-performance websites and strategic sales funnels that convert visitors into loyal customers. Let's build your digital success story together.",
     icons: {

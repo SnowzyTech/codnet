@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Code2, Zap, Palette } from "lucide-react"
+import { Code2, Zap, Palette, Smartphone } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ServiceCard } from "@/components/service-card"
@@ -13,6 +13,12 @@ const services = [
     title: "Web Development",
     description:
       "Custom-built websites using modern technologies and best practices. Fully responsive, optimized for speed, and designed for conversions.",
+  },
+  {
+    icon: Smartphone,
+    title: "Mobile Applications",
+    description:
+      "Native and cross-platform mobile apps for iOS and Android. Seamless user experiences with modern design and robust performance.",
   },
   {
     icon: Zap,

@@ -11,7 +11,7 @@ const testimonials = [
     role: "CEO, Nutrihealth Consult.",
     image: "\linda.jpg",
     content:
-      "Working with Codnet was a turning point for our online business. We needed a custom e-commerce solution that could handle our specific inventory needs while keeping the customer journey smooth. Codnet delivered a site that is not only fast and secure but has also directly contributed to a 40% increase in our online sales since launch. They built a platform that scales with us.",
+      "Working with Coddnet was a turning point for our online business. We needed a custom e-commerce solution that could handle our specific inventory needs while keeping the customer journey smooth. Coddnet delivered a site that is not only fast and secure but has also directly contributed to a 40% increase in our online sales since launch. They built a platform that scales with us.",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const testimonials = [
     role: "CEO MyskinAeshtetics clinic",
     image: "\chisom.jpg",
     content:
-      "In the skincare industry, visual trust is everything. Codnet understood exactly how to translate our brand's aesthetic into a digital store. The website they built is elegant, minimalist, and beautifully showcases our products. It’s not just a shop; it’s an experience that makes our customers feel confident in buying from us",
+      "In the skincare industry, visual trust is everything. Coddnet understood exactly how to translate our brand's aesthetic into a digital store. The website they built is elegant, minimalist, and beautifully showcases our products. It’s not just a shop; it’s an experience that makes our customers feel confident in buying from us",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const testimonials = [
     role: "Marketing Director, Bloom Beauty",
     image: "/ella.jpg",
     content:
-      "Working with Codnet was seamless. They understood our brand vision and delivered a website that perfectly represents who we are.",
+      "Working with Coddnet was seamless. They understood our brand vision and delivered a website that perfectly represents who we are.",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const testimonials = [
     role: "CEO, Emarch",
     image: "/emeka.jpg",
     content:
-      "Codnet delivered a masterfully crafted website that perfectly reflects the precision and creativity of my architectural work. Highly professional and a pleasure to work with.",
+      "Coddnet delivered a masterfully crafted website that perfectly reflects the precision and creativity of my architectural work. Highly professional and a pleasure to work with.",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const testimonials = [
     role: "Director, Urban Realty",
     image: "/austin.jpg",
     content:
-      "Codnet delivered beyond our expectations. The property showcase features they built helped us close deals faster than ever.",
+      "Coddnet delivered beyond our expectations. The property showcase features they built helped us close deals faster than ever.",
   },
   {
     id: 7,
@@ -61,14 +61,7 @@ const testimonials = [
     content:
       "Our online orders went from 10% to 60% of total sales. The e-commerce solution they built is exactly what we needed.",
   },
-  // {
-  //   id: 8,
-  //   name: "James Wilson",
-  //   role: "CEO, CloudSync Solutions",
-  //   image: "/tech-ceo-man-headshot.jpg",
-  //   content:
-  //     "Professional, responsive, and incredibly talented. They turned our complex requirements into a beautiful, functional platform.",
-  // },
+ 
   {
     id: 8,
     name: "Mary Ogochukwu",
