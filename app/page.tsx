@@ -54,7 +54,7 @@ export default function Home() {
               ].map((company) => (
                 <div
                   key={company.name}
-                  className="w-36 h-24 bg-slate-100 rounded-lg flex items-center justify-center border border-slate-600 hover:border-blue-500/50 transition-all overflow-hidden"
+                  className="w-26 h-26 bg-slate-100 rounded-full flex items-center justify-center border border-slate-600 hover:border-blue-500/50 transition-all overflow-hidden"
                 >
                   {"logo" in company ? (
                     <img
@@ -67,7 +67,7 @@ export default function Home() {
                       <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white font-bold text-sm">
                         {company.initials}
                       </div>
-                      <span className="text-slate-700 text-xs font-medium text-center">{company.name}</span>
+                      <span className="text-slate-700 text-[10px] font-medium text-center">{company.name}</span>
                     </div>
                   )}
                 </div>
