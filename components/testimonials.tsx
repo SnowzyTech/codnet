@@ -40,7 +40,7 @@ const testimonials = [
   {
     id: 5,
     name: "Architect Chimeka",
-    role: "CEO, Emeka Designs",
+    role: "CEO, Emarch",
     image: "/emeka.jpg",
     content:
       "Codnet delivered a masterfully crafted website that perfectly reflects the precision and creativity of my architectural work. Highly professional and a pleasure to work with.",

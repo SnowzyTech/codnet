@@ -47,8 +47,8 @@ export function Header() {
       >
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <Image src="/codnet_logo.jpg" alt="Codnet Logo" width={40} height={40} className="rounded" />
-            <span className="text-lg font-black text-white hidden sm:inline italic">
+            <Image src="/logo.png" alt="Codnet Logo" width={120} height={40} className="rounded" />
+            <span className="text-lg font-black text-white hidden italic">
               Cod<span className="not-italic">&lt;</span>net<span className="not-italic">/&gt;</span>
             </span>
           </Link>
