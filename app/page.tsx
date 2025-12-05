@@ -38,21 +38,38 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-75">
               {[
-                { name: "Nutriticare", initials: "NC" },
-                { name: "MySkinclinics", initials: "MS" },
-                { name: "NutrihealthConsult", initials: "NH" },
+                {
+                  name: "Nutriticare",
+                  logo: "/nutri.jpg",
+                },
+                {
+                  name: "MySkin Aesthetic Clinics",
+                  logo: "/myskin2.jpg",
+                },
+                {
+                  name: "Nutrihealth Consult",
+                  logo: "/nutrihealth.jpeg",
+                },
                 { name: "KeresGhost", initials: "KG" },
               ].map((company) => (
                 <div
                   key={company.name}
-                  className="w-32 bg-gradient-to-br from-slate-700 to-slate-800 rounded-lg flex items-center justify-center border border-slate-600 hover:border-blue-500/50 transition-all"
+                  className="w-36 h-24 bg-slate-100 rounded-lg flex items-center justify-center border border-slate-600 hover:border-blue-500/50 transition-all overflow-hidden"
                 >
-                  <div className="flex flex-col items-center gap-1 p-6">
-                    <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white font-bold text-sm">
-                      {company.initials}
+                  {"logo" in company ? (
+                    <img
+                      src={company.logo || "/placeholder.svg"}
+                      alt={company.name}
+                      className="w-full h-full bg-gray-100 object-contain p-2"
+                    />
+                  ) : (
+                    <div className="flex flex-col items-center gap-1 p-4">
+                      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white font-bold text-sm">
+                        {company.initials}
+                      </div>
+                      <span className="text-slate-700 text-xs font-medium text-center">{company.name}</span>
                     </div>
-                    <span className="text-slate-300 text-xs font-medium text-center px-2">{company.name}</span>
-                  </div>
+                  )}
                 </div>
               ))}
             </div>
