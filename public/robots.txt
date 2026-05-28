@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://coddnet.com.ng/sitemap.xml

@@ -39,11 +39,11 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
           >
-            <h1 className="text-5xl font-bold text-white mb-4">About Codnet</h1>
+            <h1 className="text-5xl font-bold text-white mb-4">About Coddnet</h1>
             <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-2">
-              Driving Business Growth Through Digital Excellence
+              We Build Systems. Not Just Websites.
             </h2>
-            <p className="text-lg text-slate-300 text-balance">Your Partner in Web Development & Sales Funnel Design</p>
+            <p className="text-lg text-slate-300 text-balance">A Nigerian software company specialising in custom business management systems for African companies.</p>
           </motion.div>
         </motion.section>
 
@@ -58,16 +58,16 @@ export default function About() {
             <h2 className="text-3xl font-bold text-white mb-8">Our Mission</h2>
             <div className="space-y-6 text-slate-300 leading-relaxed">
               <p>
-                At <strong className="text-white font-bold uppercase">Coddnet</strong>, our mission is to empower businesses with high-performance websites and strategic sales
-                funnels that convert visitors into loyal customers. We believe that a strong online presence is the
-                cornerstone of modern success. Our team is dedicated to crafting bespoke digital solutions that not only
-                look stunning but also deliver tangible results, driving growth and maximizing return on investment for
-                our clients.
+                At Coddnet, we build custom software for African businesses. We don't just design websites; we engineer comprehensive software systems — and the distinction matters.
               </p>
               <p>
-                We are a collective of passionate developers, designers, and strategists committed to innovation and
-                excellence. We thrive on tackling complex challenges and building long-term partnerships, ensuring every
-                project we undertake is a testament to our commitment to quality, integrity, and client success.
+                What we build is operational infrastructure. The systems that run your business behind the scenes. The platform that manages your clients, tracks your payments, automates your follow-ups, gives your team a single place to work, and gives management real-time visibility into everything.
+              </p>
+              <p>
+                Most Nigerian businesses reach a point where WhatsApp threads and Excel sheets stop working. Orders get missed. Leads go cold. Payments fall through. Nobody knows what anybody else is doing. That point is where Coddnet comes in.
+              </p>
+              <p>
+                We build across industries — real estate, health, e-commerce, professional services, logistics. Every system we deliver is built from scratch around how your specific business actually operates. Not a template adapted from a foreign market. Not a SaaS tool you've been trying to configure for six months. A system built for you, by people who understand your market.
               </p>
             </div>
           </motion.div>
@@ -80,15 +80,14 @@ export default function About() {
             className="mb-20"
           >
             <h2 className="text-3xl font-bold text-white mb-12">Our Expertise</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
-              {/* Web Development */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <motion.div
                 variants={itemVariants}
                 className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-8 border border-slate-700 hover:border-blue-500 transition-colors"
               >
-                <h3 className="text-xl font-bold text-white mb-6">Web Development</h3>
+                <h3 className="text-xl font-bold text-white mb-6">Custom CRM Systems</h3>
                 <ul className="space-y-3">
-                  {["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"].map((item, i) => (
+                  {["Next.js", "Node.js", "TypeScript", "Supabase", "PostgreSQL"].map((item, i) => (
                     <motion.li
                       key={i}
                       initial={{ opacity: 0, x: -10 }}
@@ -104,21 +103,13 @@ export default function About() {
                 </ul>
               </motion.div>
 
-              {/* Mobile Development */}
               <motion.div
                 variants={itemVariants}
                 className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-8 border border-slate-700 hover:border-blue-500 transition-colors"
               >
-                <h3 className="text-xl font-bold text-white mb-6">Mobile Development</h3>
+                <h3 className="text-xl font-bold text-white mb-6">Lead Management</h3>
                 <ul className="space-y-3">
-                  {[
-                    "React Native",
-                    "Expo",
-                    "iOS Development",
-                    "Android Development",
-                    "Push Notifications",
-                    "App Store Deployment",
-                  ].map((item, i) => (
+                  {["Automated pipelines", "Assignment logic", "Follow-up scheduling", "Real-time dashboards"].map((item, i) => (
                     <motion.li
                       key={i}
                       initial={{ opacity: 0, x: -10 }}
@@ -134,21 +125,13 @@ export default function About() {
                 </ul>
               </motion.div>
 
-              {/* Sales Funnels */}
               <motion.div
                 variants={itemVariants}
                 className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-8 border border-slate-700 hover:border-blue-500 transition-colors"
               >
-                <h3 className="text-xl font-bold text-white mb-6">Sales Funnels</h3>
+                <h3 className="text-xl font-bold text-white mb-6">WhatsApp Automation</h3>
                 <ul className="space-y-3">
-                  {[
-                    "Funnel Strategy",
-                    "Landing Page Design",
-                    "Conversion Optimization",
-                    "A/B Testing",
-                    "Email Automation",
-                    "Lead Generation",
-                  ].map((item, i) => (
+                  {["WhatsApp Business API", "Broadcast messaging", "Auto-responses", "CRM integration"].map((item, i) => (
                     <motion.li
                       key={i}
                       initial={{ opacity: 0, x: -10 }}
@@ -164,21 +147,57 @@ export default function About() {
                 </ul>
               </motion.div>
 
-              {/* Core Technologies */}
               <motion.div
                 variants={itemVariants}
                 className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-8 border border-slate-700 hover:border-blue-500 transition-colors"
               >
-                <h3 className="text-xl font-bold text-white mb-6">Core Technologies</h3>
+                <h3 className="text-xl font-bold text-white mb-6">Payment Tracking</h3>
                 <ul className="space-y-3">
-                  {[
-                    "Next.js & React",
-                    "TypeScript",
-                    "React Native",
-                    "Supabase",
-                    "Prisma ORM",
-                    "REST & GraphQL APIs",
-                  ].map((item, i) => (
+                  {["Installment management", "Automated reminders", "Receipt generation", "Real-time reporting"].map((item, i) => (
+                    <motion.li
+                      key={i}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: i * 0.1 }}
+                      className="flex items-center gap-3 text-slate-300"
+                    >
+                      <span className="w-2 h-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
+                      {item}
+                    </motion.li>
+                  ))}
+                </ul>
+              </motion.div>
+
+              <motion.div
+                variants={itemVariants}
+                className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-8 border border-slate-700 hover:border-blue-500 transition-colors"
+              >
+                <h3 className="text-xl font-bold text-white mb-6">Web & Mobile Apps</h3>
+                <ul className="space-y-3">
+                  {["React Native", "Node.js Backends", "API Architecture", "Scalable Infrastructure"].map((item, i) => (
+                    <motion.li
+                      key={i}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: i * 0.1 }}
+                      className="flex items-center gap-3 text-slate-300"
+                    >
+                      <span className="w-2 h-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
+                      {item}
+                    </motion.li>
+                  ))}
+                </ul>
+              </motion.div>
+
+              <motion.div
+                variants={itemVariants}
+                className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-8 border border-slate-700 hover:border-blue-500 transition-colors"
+              >
+                <h3 className="text-xl font-bold text-white mb-6">AI Integrations</h3>
+                <ul className="space-y-3">
+                  {["OpenAI APIs", "Custom AI Workflows", "Prompt Engineering", "Predictive Analytics"].map((item, i) => (
                     <motion.li
                       key={i}
                       initial={{ opacity: 0, x: -10 }}
@@ -252,23 +271,22 @@ export default function About() {
             viewport={{ once: true }}
             className="bg-gradient-to-r from-blue-900 via-blue-800 to-cyan-900 rounded-lg p-12 border border-blue-700 text-center"
           >
-            <h2 className="text-4xl font-bold text-white mb-4">Let's Build Your Digital Future</h2>
+            <h2 className="text-4xl font-bold text-white mb-4">Ready To Run Your Business On A Proper System?</h2>
             <p className="text-slate-200 mb-8 max-w-2xl mx-auto">
-              We are excited to learn about your project and discuss how Codnet can help you achieve your business
-              objectives. Let's connect and start the conversation.
+              Tell us what's broken in how you currently manage your business. We'll build the system that fixes it.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <a
-                href="/projects"
+                href="/case-studies"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                Explore Our Work
+                See Case Studies
               </a>
               <a
-                href="/contact"
+                href="https://wa.me/2347034912012"
                 className="border-2 border-slate-300 hover:border-white text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                Schedule a Consultation
+                Send Us a WhatsApp
               </a>
             </div>
           </motion.div>

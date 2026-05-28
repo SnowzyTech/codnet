@@ -8,7 +8,7 @@ export function Footer() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/services", label: "Services" },
-    { href: "/projects", label: "Portfolio" },
+    { href: "/case-studies", label: "Case Studies" },
     { href: "/about", label: "About Us" },
     { href: "/contact", label: "Contact" },
   ]
@@ -83,7 +83,7 @@ export function Footer() {
           </motion.div>
 
           <motion.p variants={itemVariants} className="text-sm text-slate-400 font-medium">
-            &copy; 2025 Codnet. All rights reserved.
+            &copy; 2026 Codnet. All rights reserved.
           </motion.p>
         </motion.div>
       </div>

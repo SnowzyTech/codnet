@@ -16,7 +16,7 @@ export function ServiceCard({ icon: Icon, title, description }: ServiceCardProps
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       whileHover={{ scale: 1.05, y: -10 }}
-      className="bg-slate-800 border border-slate-700 rounded-lg p-8 hover:shadow-lg transition-shadow hover:border-slate-600"
+      className="bg-slate-800 border border-slate-700 rounded-lg p-8 hover:shadow-lg transition-shadow hover:border-slate-600 flex flex-col w-full h-full"
     >
       <motion.div className="mb-4">
         <Icon size={40} className="text-slate-300" />

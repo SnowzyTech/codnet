@@ -34,7 +34,7 @@ export default function Home() {
         <section className="bg-gradient-to-r from-blue-950/50 via-slate-900 to-cyan-950/50 max-w-7xl rounded mx-auto py-10 border-t border-slate-700 border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <p className="text-center text-slate-300 text-sm font-semibold uppercase tracking-wide mb-8">
-              Trusted by companies worldwide
+              Trusted by Nigerian businesses
             </p>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-75">
               {[

@@ -38,7 +38,7 @@ export function Hero3D() {
       >
         <motion.div variants={itemVariants} className="flex justify-center items-center gap-2 mb-8">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-500" />
-          <span className="text-sm font-semibold text-blue-400 uppercase tracking-wider">Launch Your Success</span>
+          <span className="text-sm font-semibold text-blue-400 uppercase tracking-wider">Nigerian Business Systems</span>
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-500" />
         </motion.div>
 
@@ -46,24 +46,24 @@ export function Hero3D() {
           variants={itemVariants}
           className="text-4xl md:text-6xl font-black text-white mb-6 text-balance leading-tight"
         >
-          Build, Launch, and Grow Your Online Presence
+          Custom Software Infrastructure For Scaling Nigerian Businesses.
         </motion.h1>
 
         <motion.p
           variants={itemVariants}
           className="text-lg md:text-xl text-slate-300 mb-8 text-balance leading-relaxed max-w-2xl mx-auto"
         >
-          We create high-performance websites and strategic sales funnels that convert visitors into loyal customers.
+          We engineer dedicated CRMs, lead management platforms, and automated workflows to help you manage operations efficiently, so you can scale beyond WhatsApp and Excel.
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/projects">
+          <Link href="/case-studies">
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="bg-gradient-to-r cursor-pointer from-blue-500 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold text-base hover:shadow-lg hover:shadow-blue-500/50 transition-all w-full sm:w-auto"
             >
-              View Our Work
+              See Our Work
             </motion.button>
           </Link>
           <Link href="/contact">
@@ -72,7 +72,7 @@ export function Hero3D() {
               whileTap={{ scale: 0.98 }}
               className="bg-slate-900 border-2 border-blue-500/50 text-white px-8 py-3 rounded-lg font-semibold text-base hover:border-blue-500 transition-colors w-full sm:w-auto"
             >
-              Get a Quote
+              Talk To Us
             </motion.button>
           </Link>
         </motion.div>

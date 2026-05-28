@@ -7,12 +7,69 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Coddnet - Build, Launch, and Grow your Online Presence",
+  metadataBase: new URL("https://coddnet.com.ng"),
+  title: {
+    default: "Coddnet | Custom Business Software & CRM Systems in Nigeria",
+    template: "%s | Coddnet",
+  },
   description:
-    "We create high-performance websites and strategic sales funnels that convert visitors into loyal customers. Let's build your digital success story together.",
-    icons: {
-      icon: "/logo.png",
+    "Coddnet builds custom CRM systems, lead management software, WhatsApp automation, and payment tracking tools for Nigerian businesses. Built for how Africa operates.",
+  keywords: [
+    "CRM Nigeria",
+    "lead management system Nigeria",
+    "custom business software Nigeria",
+    "real estate CRM Nigeria",
+    "WhatsApp automation Nigeria",
+    "business management software Nigeria",
+    "custom CRM Africa",
+    "payment tracking system Nigeria",
+    "software company Nigeria",
+    "Coddnet",
+  ],
+  authors: [{ name: "Coddnet", url: "https://coddnet.com.ng" }],
+  creator: "Coddnet",
+  publisher: "Coddnet",
+  icons: {
+    icon: "/logo.png",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_NG",
+    url: "https://coddnet.com.ng",
+    siteName: "Coddnet",
+    title: "Coddnet | Custom Business Software & CRM Systems in Nigeria",
+    description:
+      "We build custom CRMs, lead management systems, WhatsApp automation, and payment tracking tools for Nigerian businesses that have outgrown WhatsApp and Excel.",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Coddnet — Custom Business Software for Nigerian Companies",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Coddnet | Custom Business Software & CRM Systems in Nigeria",
+    description:
+      "Custom CRM systems, lead management software, and WhatsApp automation for Nigerian businesses.",
+    images: ["/og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
+  },
+  alternates: {
+    canonical: "https://coddnet.com.ng",
+  },
 }
 
 export default function RootLayout({
@@ -22,7 +79,41 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-slate-900">
+      <head>
+        <link rel="canonical" href="https://coddnet.com.ng" />
+        <meta name="geo.region" content="NG" />
+        <meta name="geo.placename" content="Nigeria" />
+        <meta name="language" content="English" />
+      </head>
       <body className={`${inter.className} font-sans antialiased overflow-x-hidden`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Coddnet",
+              url: "https://coddnet.com.ng",
+              logo: "https://coddnet.com.ng/logo.png",
+              description:
+                "Nigerian software company that builds custom CRM systems, lead management software, WhatsApp automation, and payment tracking tools for African businesses.",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+2347034912012",
+                contactType: "customer service",
+                areaServed: "NG",
+                availableLanguage: "English",
+              },
+              address: {
+                "@type": "PostalAddress",
+                addressCountry: "NG",
+              },
+              sameAs: [
+                "https://www.linkedin.com/company/codnet-ng/",
+              ],
+            }),
+          }}
+        />
         {children}
         <Analytics />
       </body>
