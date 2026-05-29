@@ -54,8 +54,8 @@ export function ContactClient() {
 
   const contactInfo = [
     { icon: Mail, label: "Email", value: "snowzytech@gmail.com", href: "mailto:snowzytech@gmail.com" },
-    { icon: Phone, label: "Phone", value: "07034912012", href: "tel:+2347034912012" },
-    { icon: Phone, label: "Phone", value: "07065444706", href: "tel:+2347065444706" },
+    { icon: Phone, label: "Phone", value: "09074652892", href: "tel:+2349074652892" },
+    { icon: Phone, label: "Phone", value: "08024945780", href: "tel:+234802495780" },
   ]
 
   const socialLinks = [
