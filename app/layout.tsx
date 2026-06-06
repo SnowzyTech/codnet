@@ -7,6 +7,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+
+
   metadataBase: new URL("https://coddnet.com"),
   title: {
     default: "Coddnet | Custom Business Software & CRM Systems in Nigeria",
@@ -67,6 +69,11 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+
+   verification: {
+    google: 'bjUOJEg819krObgwDVzecsiF-ZGlgzUQt6RJo7Af1UU',  // ADD THIS
+  },
+  
   alternates: {
     canonical: "https://coddnet.com",
   },
