@@ -7,7 +7,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://coddnet.com.ng"),
+  metadataBase: new URL("https://coddnet.com"),
   title: {
     default: "Coddnet | Custom Business Software & CRM Systems in Nigeria",
     template: "%s | Coddnet",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "software company Nigeria",
     "Coddnet",
   ],
-  authors: [{ name: "Coddnet", url: "https://coddnet.com.ng" }],
+  authors: [{ name: "Coddnet", url: "https://coddnet.com" }],
   creator: "Coddnet",
   publisher: "Coddnet",
   icons: {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_NG",
-    url: "https://coddnet.com.ng",
+    url: "https://coddnet.com",
     siteName: "Coddnet",
     title: "Coddnet | Custom Business Software & CRM Systems in Nigeria",
     description:
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://coddnet.com.ng",
+    canonical: "https://coddnet.com",
   },
 }
 
@@ -80,7 +80,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-slate-900">
       <head>
-        <link rel="canonical" href="https://coddnet.com.ng" />
+        <link rel="canonical" href="https://coddnet.com" />
         <meta name="geo.region" content="NG" />
         <meta name="geo.placename" content="Nigeria" />
         <meta name="language" content="English" />
@@ -93,8 +93,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Coddnet",
-              url: "https://coddnet.com.ng",
-              logo: "https://coddnet.com.ng/logo.png",
+              url: "https://coddnet.com",
+              logo: "https://coddnet.com/logo.png",
               description:
                 "Nigerian software company that builds custom CRM systems, lead management software, WhatsApp automation, and payment tracking tools for African businesses.",
               contactPoint: {
