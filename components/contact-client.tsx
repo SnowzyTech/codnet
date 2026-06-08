@@ -53,7 +53,7 @@ export function ContactClient() {
   }
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "snowzytech@gmail.com", href: "mailto:snowzytech@gmail.com" },
+    { icon: Mail, label: "Email", value: "coddnet6@gmail.com", href: "mailto:snowzytech@gmail.com" },
     { icon: Phone, label: "Phone", value: "09074652892", href: "tel:+2349074652892" },
     { icon: Phone, label: "Phone", value: "08024945780", href: "tel:+234802495780" },
   ]
@@ -83,7 +83,7 @@ export function ContactClient() {
         className="flex justify-center mb-12"
       >
         <a
-          href="https://wa.me/2347034912012"
+          href="https://wa.me/2348024945780"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors shadow-lg shadow-green-900/40"

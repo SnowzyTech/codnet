@@ -4,6 +4,18 @@ import { CaseStudiesClient } from "@/components/case-studies-client"
 
 const allProjects = [
   {
+    id: 19,
+    title: "Nucle CRM — Business Management Platform",
+    category: "CRM & Web System",
+    image: "/nutritcare-crm-dashboard.png",
+    link: "#",
+    client: "Nutritcare",
+    industry: "Nutrition & Supplements",
+    problem: "Sales, confirmation, packing, delivery, payments, inventory, and accounting were all tracked on separate tools. Following an order's full journey or getting a clear view of performance was nearly impossible, and each team worked in isolation.",
+    built: "A complete business management platform that brings the entire operation into one system. It manages the full journey of every order — from sales and confirmation to packing, delivery, and payment — while giving each team (sales, accounting, inventory, warehouse, logistics, and delivery) its own dedicated dashboard. It also handles inventory and warehouse tracking, invoicing and finances, delivery and route planning, WhatsApp marketing, and real-time analytics.",
+    result: "Management now has a real-time, at-a-glance view of sales and performance, and every order can be tracked end-to-end across teams — eliminating the gaps that came from running the business on disconnected tools.",
+  },
+  {
     id: 18,
     title: "Nutrihealth Consult — Staff Management Platform",
     category: "CRM & Web System",

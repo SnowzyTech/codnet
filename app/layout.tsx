@@ -87,7 +87,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-slate-900">
       <head>
-        <link rel="canonical" href="https://coddnet.com" />
         <meta name="geo.region" content="NG" />
         <meta name="geo.placename" content="Nigeria" />
         <meta name="language" content="English" />

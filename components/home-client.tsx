@@ -183,9 +183,18 @@ export function HomeClient() {
           </Link>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <motion.div variants={itemVariants}>
-            <ProjectCard 
+            <ProjectCard
+              title="Nutritcare CRM — Business Management Platform"
+              category="CRM & Web System"
+              image="/nutritcare-crm-orders.png"
+              problem="Sales, packing, delivery, payments, inventory, and accounting were tracked on separate tools, making it impossible to follow an order's full journey or get a clear view of performance."
+              built="A complete management platform that unifies the entire operation — tracking every order from sale to delivery and payment, giving each team its own dashboard, and surfacing real-time analytics for management."
+            />
+          </motion.div>
+          <motion.div variants={itemVariants}>
+            <ProjectCard
               title="Nutrihealth Consult — Staff Management Platform"
               category="CRM & Web System"
               image="/nutrihealth-staff.png"
