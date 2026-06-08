@@ -277,7 +277,7 @@ export function HomeClient() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center relative z-10">
             <Link
-              href="https://wa.me/2347034912012"
+              href="https://wa.me/2348024945780"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors shadow-lg shadow-green-900/40"
