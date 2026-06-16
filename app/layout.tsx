@@ -7,9 +7,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-
-
-  metadataBase: new URL("https://coddnet.com"),
+  metadataBase: new URL("https://www.coddnet.com"),
   title: {
     default: "Coddnet | Custom Business Software & CRM Systems in Nigeria",
     template: "%s | Coddnet",
@@ -28,7 +26,7 @@ export const metadata: Metadata = {
     "software company Nigeria",
     "Coddnet",
   ],
-  authors: [{ name: "Coddnet", url: "https://coddnet.com" }],
+  authors: [{ name: "Coddnet", url: "https://www.coddnet.com" }],
   creator: "Coddnet",
   publisher: "Coddnet",
   icons: {
@@ -37,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_NG",
-    url: "https://coddnet.com",
+    url: "https://www.coddnet.com",
     siteName: "Coddnet",
     title: "Coddnet | Custom Business Software & CRM Systems in Nigeria",
     description:
@@ -69,13 +67,11 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-
-   verification: {
-    google: 'bjUOJEg819krObgwDVzecsiF-ZGlgzUQt6RJo7Af1UU',  // ADD THIS
+  verification: {
+    google: "bjUOJEg819krObgwDVzecsiF-ZGlgzUQt6RJo7Af1UU",
   },
-  
   alternates: {
-    canonical: "https://coddnet.com",
+    canonical: "https://www.coddnet.com",
   },
 }
 
@@ -99,8 +95,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Coddnet",
-              url: "https://coddnet.com",
-              logo: "https://coddnet.com/logo.png",
+              url: "https://www.coddnet.com",
+              logo: "https://www.coddnet.com/logo.png",
               description:
                 "Nigerian software company that builds custom CRM systems, lead management software, WhatsApp automation, and payment tracking tools for African businesses.",
               contactPoint: {
